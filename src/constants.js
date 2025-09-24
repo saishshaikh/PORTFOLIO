@@ -43,9 +43,8 @@ import acmLogo from './assets/company_logo/acm_logo.png';
 import sarvpriyeLogo from './assets/company_logo/sarvpriyefoundation_logo.png';
 
 // Education Section Logo's
-import glaLogo from './assets/education_logo/gla_logo.png';
-import bsaLogo from './assets/education_logo/bsa_logo.png';
-import vpsLogo from './assets/education_logo/vps_logo.png';
+import mgvdLogo from './assets/education_logo/Mgvd.png';
+import mhsscelogo from './assets/education_logo/Mhssce.png';
 
 // Project Section Logo's
 import stockLogo from './assets/work_logo/Stock_predictor.png';
@@ -129,7 +128,7 @@ export const SkillsInfo = [
         "Excel",
         "Pandas",
         "NumPy",
-        "Matplotlib, ,  )",
+        "Matplotlib",
         "Seaborn",
         "SQL",
         "Power",
@@ -178,39 +177,30 @@ export const SkillsInfo = [
   export const education = [
     {
       id: 0,
-      img: glaLogo,
-      school: "GLA University, Mathura",
-      date: "Sept 2022 - July 2024",
-      grade: "7.81 CGPA",
-      desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
-      degree: "Master of Computer Applications - MCA",
+      img: mhsscelogo,
+      school: "M.H. Saboo Siddik College of Engineering",
+      date: "Aug 2023 - Expected May 2027",
+      grade: "73.2%",
+      desc: "I am currently in my third year of pursuing a Bachelor's of engineering in Information Technology. Throughout my academic journey,I have always been passionate about technology and problem-solving, with a strong interest in full-stack development and data analysis. Skilled in JavaScript, React, Next.js, Node.js, and Python, I also explore AI-powered automation with LangChain while applying SQL, EDA, and visualization tools to uncover insights from data.",
+      degree: "Bachelor of Engineering - BE(Information Technology)",
     },
     {
       id: 1,
-      img: bsaLogo,
-      school: "BSA College, Mathura",
-      date: "Sept 2018 - Aug 2021",
-      grade: "73.2%",
-      desc: "I completed my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
-      degree: "Bachelor of Science - BSC (Computer Science)",
+      img: mgvdLogo,
+      school: "Mahatma Gandhi Vidyalaya and Junior College Dhasai",
+      date: "July 2022 - March 2023",
+      grade: "71.83%",
+      desc: "I completed my class 12 education from Mahatma Gandhi Vidyalaya and Junior College, Dhasai, under the SSC board, where I studied Physics, Chemistry, Mathematics and Biology (PCMB).",
+      degree: "HSC(XII) - PCMB",
     },
     {
       id: 2,
-      img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2017 - March 2018",
-      grade: "78%",
-      desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
-      degree: "CBSE(XII) - PCM with Computer Science",
-    },
-    {
-      id: 3,
-      img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2015 - March 2016",
-      grade: "87.5%",
-      desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
-      degree: "CBSE(X), Science with Computer Application",
+      img: mgvdLogo,
+      school: "Mahatma Gandhi Vidyalaya, Dhasai",
+      date: "July 2020 - April 2021",
+      grade: "87.80%",
+      desc: "I completed my class 10 education from Mahatma Gandhi Vidyalaya, Dhasai, under the SSC board.",
+      degree: "SSC(X)",
     },
   ];
   
