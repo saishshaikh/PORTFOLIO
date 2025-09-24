@@ -49,7 +49,7 @@ import mhsscelogo from './assets/education_logo/Mhssce.png';
 // Project Section Logo's
 import stockLogo from './assets/work_logo/Stock_predictor.png';
 import dataanalystLogo from './assets/work_logo/Data_analyst.png';
-import skyportLogo from './assets/work_logo/SkyPort.png';
+import skyportLogo from './assets/work_logo/Skyport.png';
 
 
 
