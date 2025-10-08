@@ -46,16 +46,16 @@ import cloudCounselageLogo from './assets/company_logo/cloudcounselage_logo.png'
 // ============================
 // Education Section Logos
 // ============================
-import mgvdLogo from './assets/education_logo/mgvd.png';
-import mhsscelogo from './assets/education_logo/mhssce.png';
+import mgvdLogo from './assets/education_logo/Mgvd.png';
+import mhsscelogo from './assets/education_logo/Mhssce.png';
 
 // ============================
 // Projects Section Logos
 // ============================
-import stockLogo from './assets/work_logo/stock_predictor.png';
+import stockLogo from './assets/work_logo/Stock_predictor.png';
 import dataanalystLogo from './assets/work_logo/data_analyst.png';
-import skyportLogo from './assets/work_logo/skyport.png';
-import linkedLogo from './assets/work_logo/linked.png';
+import skyportLogo from './assets/work_logo/Skyport.png';
+import linkedLogo from './assets/work_logo/Linked.png';
 
 // ============================
 // Skills Info
