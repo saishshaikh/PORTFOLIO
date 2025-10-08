@@ -53,7 +53,6 @@ import mhsscelogo from './assets/education_logo/Mhssce.png';
 // Projects Section Logos
 // ============================
 import stockLogo from './assets/work_logo/Stock_predictor.png';
-import dataanalystLogo from './assets/work_logo/data_analyst.png';
 import skyportLogo from './assets/work_logo/Skyport.png';
 import linkedLogo from './assets/work_logo/Linked.png';
 
