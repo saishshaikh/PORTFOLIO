@@ -34,7 +34,7 @@ import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
-import matplotlibLogo from './assets/tech_logo/matplotlib.png';
+import matplotlibLogo from './assets/tech_logo/Matplotlib.png';
 import numpyLogo from './assets/tech_logo/numpy.png';
 import pandasLogo from './assets/tech_logo/pandas.png';
 
