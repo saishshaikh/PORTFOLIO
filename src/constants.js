@@ -35,8 +35,8 @@ import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
 import matplotlibLogo from './assets/tech_logo/Matplotlib.png';
-import numpyLogo from './assets/tech_logo/numpy.png';
-import pandasLogo from './assets/tech_logo/pandas.png';
+import numpyLogo from './assets/tech_logo/Numpy.png';
+import pandasLogo from './assets/tech_logo/Pandas.png';
 
 // ============================
 // Experience Section Logos
