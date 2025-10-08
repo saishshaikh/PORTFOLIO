@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaYoutube } from "react-icons/fa";
+import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   // Smooth scroll function
@@ -14,9 +14,9 @@ const Footer = () => {
     <footer className="text-white py-8 px-[12vw] md:px-[7vw] lg:px-[20vw]">
       <div className="container mx-auto text-center">
         {/* Name / Logo */}
-        <h2 className="text-xl font-semibold text-purple-500">Arshan Attar</h2>
+        <h2 className="text-xl font-semibold text-purple-500">Saish Shaikh</h2>
 
-        {/* Navigation Links - Responsive */}
+        {/* Navigation Links */}
         <nav className="flex flex-wrap justify-center space-x-4 sm:space-x-6 mt-4">
           {[
             { name: "About", id: "about" },
@@ -35,15 +35,13 @@ const Footer = () => {
           ))}
         </nav>
 
-        {/* Social Media Icons - Responsive */}
+        {/* Social Media Icons */}
         <div className="flex flex-wrap justify-center space-x-4 mt-6">
           {[
-            { icon: <FaFacebook />, link: "https://www.facebook.com/tarun.kaushik.3511041/" },
-            { icon: <FaTwitter />, link: "https://x.com/Arshu18_" },
-            { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/arshanattar/" },
-            { icon: <FaInstagram />, link: "https://www.instagram.com/arshu18_/" },
-            
-            
+            { icon: <FaFacebook />, link: "https://www.facebook.com/yourprofile" },
+            { icon: <FaTwitter />, link: "https://x.com/home" },
+            { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/saish-shaikh-184b6a383/" },
+            { icon: <FaInstagram />, link: "https://www.instagram.com/_saiish._?igsh=ZnlwbGxsd2o3ZHI2" },
           ].map((item, index) => (
             <a
               key={index}
@@ -57,9 +55,9 @@ const Footer = () => {
           ))}
         </div>
 
-        {/* Copyright Text */}
+        {/* Copyright */}
         <p className="text-sm text-gray-400 mt-6">
-          © 2025 Arshan Attar. All rights reserved.
+          © 2025 Saish Shaikh. All rights reserved.
         </p>
       </div>
     </footer>

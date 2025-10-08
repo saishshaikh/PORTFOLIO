@@ -46,9 +46,9 @@ const Navbar = () => {
         {/* Logo */}
         <div className="text-lg font-semibold cursor-pointer">
           <span className="text-[#8245ec]">&lt;</span>
-          <span className="text-white">Arshan</span>
+          <span className="text-white">SAISH</span>
           <span className="text-[#8245ec]">/</span>
-          <span className="text-white">Attar</span>
+          <span className="text-white">SHAIKH</span>
           <span className="text-[#8245ec]">&gt;</span>
         </div>
 
@@ -71,7 +71,7 @@ const Navbar = () => {
         {/* Social Icons */}
         <div className="hidden md:flex space-x-4">
           <a
-            href="https://github.com/Arshan18"
+            href="https://github.com/saishshaikh"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-[#8245ec]"
@@ -79,7 +79,7 @@ const Navbar = () => {
             <FaGithub size={24} />
           </a>
           <a
-            href="https://www.linkedin.com/in/arshanattar/"
+            href="https://www.linkedin.com/in/saish-shaikh-184b6a383/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-[#8245ec]"
@@ -122,7 +122,7 @@ const Navbar = () => {
             ))}
             <div className="flex space-x-4">
               <a
-                href="https://github.com/Arshan18"
+                href="https://github.com/saishshaikh"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white"
@@ -130,7 +130,7 @@ const Navbar = () => {
                 <FaGithub size={24} />
               </a>
               <a
-                href="https://www.linkedin.com/in/arshanattar/"
+                href="https://www.linkedin.com/in/saish-shaikh-184b6a383/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white"

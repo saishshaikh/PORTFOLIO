@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-parallax-tilt';
-import profileImage from '../../assets/Arshan.png';
+import profileImage from "../../assets/mypic.png";
 
 const About = () => {
   return (
@@ -18,37 +18,31 @@ const About = () => {
           </h1>
           {/* Name */}
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 leading-tight">
-            Arshan Attar
+            Saish Shaikh
           </h2>
           {/* Skills Heading with Typing Effect */}
           <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
             <span className="text-white">& I am a </span>
             <ReactTypingEffect
-              text={[
-                'Fullstack Developer',
-                'Data Analyst',
-                'Coder',
-              ]}
+              text={['Fullstack Developer', 'Data Analyst', 'Coder']}
               speed={100}
               eraseSpeed={50}
               typingDelay={500}
               eraseDelay={2000}
-              cursorRenderer={(cursor) => (
-                <span className="text-[#8245ec]">{cursor}</span>
-              )}
+              cursorRenderer={(cursor) => <span className="text-[#8245ec]">{cursor}</span>}
             />
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I’m a third-year IT student with a strong passion for crafting innovative, user-friendly, and scalable web solutions. As a Full-Stack Developer, I specialize in JavaScript, React, Next.js, Node.js, and Python, while also exploring AI-powered automation with LangChain. Alongside development, I have a keen interest in Data Analysis, transforming raw data into meaningful insights through EDA, SQL, and visualization tools.
+            I'm a BE CS Engineering student with a strong passion for crafting innovative, user-friendly, and scalable web solutions. As a Full-Stack Developer, I specialize in JavaScript, React, Next.js, Node.js, and Python, while also exploring AI-powered automation with LangChain. Alongside development, I have a keen interest in Data Analysis, transforming raw data into meaningful insights through EDA, SQL, and visualization tools.
 
-Currently, I’m sharpening my DSA skills and working on real-world projects that combine both full-stack and analytical expertise.
+            Currently, I'm sharpening my DSA skills and working on real-world projects that combine both full-stack and analytical expertise.
 
-Outside of tech, you’ll often find me watching or playing cricket, or travelling to explore new places and cultures, experiences that fuel my creativity and problem-solving mindset.
+            Outside of tech, you'll often find me watching or playing cricket, or travelling to explore new places and cultures, experiences that fuel my creativity and problem-solving mindset.
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1I7H6qlKmpcFNQDWFrS85X6ST2du0iZOr/view?usp=sharing"
+            href="https://docs.google.com/document/d/1uvHU8wpWtTdVN2p_S9Edwr3NflSgAwcs/edit?usp=drive_web"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
@@ -59,12 +53,12 @@ Outside of tech, you’ll often find me watching or playing cricket, or travelli
           >
             DOWNLOAD CV
           </a>
-          
         </div>
+
         {/* Right Side */}
         <div className="md:w-1/2 flex justify-center md:justify-end">
           <Tilt
-            className="w-48 h-48 sm:w-64 sm:h-64 md:w-[30rem] md:h-[30rem] border-4 border-purple-700 rounded-full"
+            className="w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 border-4 border-purple-700 rounded-full overflow-hidden"
             tiltMaxAngleX={20}
             tiltMaxAngleY={20}
             perspective={1000}
@@ -74,8 +68,8 @@ Outside of tech, you’ll often find me watching or playing cricket, or travelli
           >
             <img
               src={profileImage}
-              alt="Arshan Attar"
-              className="w-full h-full rounded-full object-cover object-top"
+              alt="Saish Shaikh"
+              className="w-full h-full object-cover"
             />
           </Tilt>
         </div>
