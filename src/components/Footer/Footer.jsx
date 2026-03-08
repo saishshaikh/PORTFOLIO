@@ -17,7 +17,7 @@ const Footer = () => {
         <h2 className="text-xl font-semibold text-purple-500">Saish Shaikh</h2>
 
         {/* Navigation Links */}
-        <nav className="flex flex-wrap justify-center space-x-4 sm:space-x-6 mt-4">
+        <nav className="flex flex-wrap justify-center mt-4 space-x-4 sm:space-x-6">
           {[
             { name: "About", id: "about" },
             { name: "Skills", id: "skills" },
@@ -28,7 +28,7 @@ const Footer = () => {
             <button
               key={index}
               onClick={() => handleScroll(item.id)}
-              className="hover:text-purple-500 text-sm sm:text-base my-1"
+              className="my-1 text-sm hover:text-purple-500 sm:text-base"
             >
               {item.name}
             </button>
@@ -36,7 +36,7 @@ const Footer = () => {
         </nav>
 
         {/* Social Media Icons */}
-        <div className="flex flex-wrap justify-center space-x-4 mt-6">
+        <div className="flex flex-wrap justify-center mt-6 space-x-4">
           {[
             { icon: <FaFacebook />, link: "https://www.facebook.com/yourprofile" },
             { icon: <FaTwitter />, link: "https://x.com/home" },
@@ -48,7 +48,7 @@ const Footer = () => {
               href={item.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-xl hover:text-purple-500 transition-transform transform hover:scale-110"
+              className="text-xl transition-transform transform hover:text-purple-500 hover:scale-110"
             >
               {item.icon}
             </a>
@@ -56,8 +56,8 @@ const Footer = () => {
         </div>
 
         {/* Copyright */}
-        <p className="text-sm text-gray-400 mt-6">
-          © 2025 Saish Shaikh. All rights reserved.
+        <p className="mt-6 text-sm text-gray-400">
+          © 2026 Saish Shaikh. All rights reserved.
         </p>
       </div>
     </footer>
