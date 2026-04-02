@@ -203,14 +203,22 @@ export const education = [
 // ============================
 export const projects = [
   {
-    id: 0,
-    title: "Real-Time Stock Tracker",
+   id: 0,
+    title: "AI-Powered Multi-Vendor E-Commerce Platform",
     description:
-      "A Python-based web app that fetches and displays live stock prices with auto-refresh, built using Python, HTML, and CSS for real-time market insights.",
-    image: stockLogo,
-    tags: ["HTML", "CSS", "MongoDB", "Python", "Flask"],
-    github: "https://github.com/saishshaikh/Real-Time-Stock-Tracker.git",
-    webapp: "https://real-time-stock-tracker-demo.vercel.app",
+      "An intelligent multi-vendor e-commerce platform powered by AI, featuring vendor dashboards, product management, smart recommendations, and seamless buyer-seller interactions.",
+    image: ecommerceLogo,
+    tags: [
+      "Next.js",
+      "React.js",
+      "Node.js",
+      "MongoDB",
+      "Tailwind CSS",
+      "AI/ML",
+      "REST API",
+    ],
+    github: "https://github.com/saishshaikh/AI-Powered-Multi-Vendor-E-Commerce-Platform.git",
+    webapp: "https://ai-powered-multi-vendor-e-commerce.vercel.app/login?error=Configuration",
   },
   {
     id: 1,
@@ -245,20 +253,17 @@ export const projects = [
   },
   {
     id: 3,
-    title: "AI-Powered Multi-Vendor E-Commerce Platform",
+    title: "Real-Time Stock Tracker",
     description:
-      "An intelligent multi-vendor e-commerce platform powered by AI, featuring vendor dashboards, product management, smart recommendations, and seamless buyer-seller interactions.",
-    image: ecommerceLogo,
-    tags: [
-      "Next.js",
-      "React.js",
-      "Node.js",
-      "MongoDB",
-      "Tailwind CSS",
-      "AI/ML",
-      "REST API",
-    ],
-    github: "https://github.com/saishshaikh/AI-Powered-Multi-Vendor-E-Commerce-Platform.git",
-    webapp: "https://ai-powered-multi-vendor-e-commerce.vercel.app/login?error=Configuration",
+      "A Python-based web app that fetches and displays live stock prices with auto-refresh, built using Python, HTML, and CSS for real-time market insights.",
+    image: stockLogo,
+    tags: ["HTML", "CSS", "MongoDB", "Python", "Flask"],
+    github: "https://github.com/saishshaikh/Real-Time-Stock-Tracker.git",
+    webapp: "https://real-time-stock-tracker-demo.vercel.app",
   },
 ];
+
+
+
+
+
