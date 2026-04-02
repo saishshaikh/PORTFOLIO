@@ -55,6 +55,7 @@ import mhsscelogo from './assets/education_logo/Mhssce.png';
 import stockLogo from './assets/work_logo/Stock_predictor.png';
 import skyportLogo from './assets/work_logo/Skyport.png';
 import linkedLogo from './assets/work_logo/Linked.png';
+import ecommerceLogo from './assets/work_logo/Ecommerce.png';
 
 // ============================
 // Skills Info
@@ -209,6 +210,7 @@ export const projects = [
     image: stockLogo,
     tags: ["HTML", "CSS", "MongoDB", "Python", "Flask"],
     github: "https://github.com/saishshaikh/Real-Time-Stock-Tracker.git",
+    webapp: "https://real-time-stock-tracker-demo.vercel.app",
   },
   {
     id: 1,
@@ -229,6 +231,7 @@ export const projects = [
       "JWT Authentication",
     ],
     github: "https://github.com/saishshaikh/LINKDIN_PROJECT.git",
+    webapp: "https://linkedin-clone-demo.vercel.app",
   },
   {
     id: 2,
@@ -238,5 +241,24 @@ export const projects = [
     image: skyportLogo,
     tags: ["Java", "Java Swing", "MySQL", "JDBC"],
     github: "https://github.com/saishshaikh/SKY-PORT.git",
+    webapp: "https://skyport-demo.vercel.app",
+  },
+  {
+    id: 3,
+    title: "AI-Powered Multi-Vendor E-Commerce Platform",
+    description:
+      "An intelligent multi-vendor e-commerce platform powered by AI, featuring vendor dashboards, product management, smart recommendations, and seamless buyer-seller interactions.",
+    image: ecommerceLogo,
+    tags: [
+      "Next.js",
+      "React.js",
+      "Node.js",
+      "MongoDB",
+      "Tailwind CSS",
+      "AI/ML",
+      "REST API",
+    ],
+    github: "https://github.com/saishshaikh/AI-Powered-Multi-Vendor-E-Commerce-Platform.git",
+    webapp: "https://ai-powered-multi-vendor-e-commerce.vercel.app/login?error=Configuration",
   },
 ];
