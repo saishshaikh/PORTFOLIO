@@ -54,7 +54,7 @@ import mhsscelogo from './assets/education_logo/Mhssce.png';
 // ============================
 import stockLogo from './assets/work_logo/Stock_predictor.png';
 import skyportLogo from './assets/work_logo/Skyport.png';
-import linkedLogo from './assets/work_logo/Linked.png';
+import linkedLogo from './assets/work_logo/EduConnect.png';
 import ecommerceLogo from './assets/work_logo/Ecommerce.png';
 
 // ============================
@@ -222,9 +222,9 @@ export const projects = [
   },
   {
     id: 1,
-    title: "LinkedIn Clone",
+    title: "Educonnect-PROFESSIONAL NETWORKING PLATFORM ",
     description:
-      "A full-stack web application replicating core functionalities of LinkedIn, including user registration, profile management, post sharing, and social connections. Built using the MERN stack.",
+      "EduConnect is a full-stack MERN web application inspired by LinkedIn, designed for students to connect, create profiles, share posts, and build professional networks. It enables communication, collaboration, and career growth through a secure and responsive platform..",
     image: linkedLogo,
     tags: [
       "MongoDB",
@@ -239,11 +239,11 @@ export const projects = [
       "JWT Authentication",
     ],
     github: "https://github.com/saishshaikh/LINKDIN_PROJECT.git",
-    webapp: "https://linkedin-clone-demo.vercel.app",
+    webapp: "https://edu-connect-liard-delta.vercel.app/login",
   },
   {
     id: 2,
-    title: "SkyPort",
+    title: "SkyPort – Next-Gen Airport & Logistics Platform",
     description:
       "A Java Swing desktop application designed to ensure secure airline workflows, streamline real-time flight reservations, and manage customer data seamlessly with MySQL integration.",
     image: skyportLogo,
@@ -253,7 +253,7 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Real-Time Stock Tracker",
+    title: "StockPulse – Real-Time Stock Tracking Platform",
     description:
       "A Python-based web app that fetches and displays live stock prices with auto-refresh, built using Python, HTML, and CSS for real-time market insights.",
     image: stockLogo,
