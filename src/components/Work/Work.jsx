@@ -105,7 +105,7 @@ const Work = () => {
                       onClick={(e) => e.stopPropagation()}
                       className="w-1/2 py-2 text-sm font-semibold text-center transition bg-green-600 rounded-lg hover:bg-green-500"
                     >
-                      🚀 Live
+                      🚀 View Live
                     </a>
                   )}
                 </div>
