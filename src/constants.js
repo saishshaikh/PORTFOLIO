@@ -38,6 +38,7 @@ import matplotlibLogo from './assets/tech_logo/Matplotlib.png';
 import numpyLogo from './assets/tech_logo/Numpy.png';
 import pandasLogo from './assets/tech_logo/Pandas.png';
 
+
 // ============================
 // Experience Section Logos
 // ============================
@@ -56,6 +57,7 @@ import stockLogo from './assets/work_logo/Stock_predictor.png';
 import skyportLogo from './assets/work_logo/Skyport.png';
 import linkedLogo from './assets/work_logo/EduConnect.png';
 import ecommerceLogo from './assets/work_logo/Ecommerce.png';
+import webGenAILogo from "../images/webgenai.png";
 
 // ============================
 // Skills Info
@@ -203,7 +205,26 @@ export const education = [
 // ============================
 export const projects = [
   {
-   id: 0,
+    id: 0,
+    title: "WebGenAI 🚀🤖",
+    description:
+      "An AI-powered web application that helps users generate and explore web content with a modern, responsive interface and intelligent features.",
+    image: webGenAILogo,
+    tags: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "REST API",
+    ],
+    github: "https://github.com/saishshaikh/WebGenAI.git",
+    webapp: "https://web-ai-4.onrender.com/",
+  },
+  {
+    id: 1,
     title: "AI-Powered Multi-Vendor E-Commerce Platform",
     description:
       "An intelligent multi-vendor e-commerce platform powered by AI, featuring vendor dashboards, product management, smart recommendations, and seamless buyer-seller interactions.",
@@ -218,13 +239,14 @@ export const projects = [
       "REST API",
     ],
     github: "https://github.com/saishshaikh/AI-Powered-Multi-Vendor-E-Commerce-Platform.git",
-    webapp: "https://ai-powered-multi-vendor-e-commerce.vercel.app/login?error=Configuration",
+    webapp:
+      "https://ai-powered-multi-vendor-e-commerce.vercel.app/login?error=Configuration",
   },
   {
-    id: 1,
-    title: "Educonnect-PROFESSIONAL NETWORKING PLATFORM ",
+    id: 2,
+    title: "Educonnect-PROFESSIONAL NETWORKING PLATFORM",
     description:
-      "EduConnect is a full-stack MERN web application inspired by LinkedIn, designed for students to connect, create profiles, share posts, and build professional networks. It enables communication, collaboration, and career growth through a secure and responsive platform..",
+      "EduConnect is a full-stack MERN web application inspired by LinkedIn, designed for students to connect, create profiles, share posts, and build professional networks. It enables communication, collaboration, and career growth through a secure and responsive platform.",
     image: linkedLogo,
     tags: [
       "MongoDB",
@@ -242,7 +264,7 @@ export const projects = [
     webapp: "https://edu-connect-liard-delta.vercel.app/login",
   },
   {
-    id: 2,
+    id: 3,
     title: "SkyPort – Next-Gen Airport & Logistics Platform",
     description:
       "A Java Swing desktop application designed to ensure secure airline workflows, streamline real-time flight reservations, and manage customer data seamlessly with MySQL integration.",
@@ -252,7 +274,7 @@ export const projects = [
     webapp: "https://skyport-demo.vercel.app",
   },
   {
-    id: 3,
+    id: 4,
     title: "StockPulse – Real-Time Stock Tracking Platform",
     description:
       "A Python-based web app that fetches and displays live stock prices with auto-refresh, built using Python, HTML, and CSS for real-time market insights.",
@@ -262,8 +284,3 @@ export const projects = [
     webapp: "https://real-time-stock-tracker-demo.vercel.app",
   },
 ];
-
-
-
-
-
