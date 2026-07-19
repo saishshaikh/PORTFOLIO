@@ -205,9 +205,9 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "WebGenAI 🚀🤖",
+    title: "WebGenAI 🚀🤖 | An AI-Powered Web Development Platform",
     description:
-      "An AI-powered web application that helps users generate and explore web content with a modern, responsive interface and intelligent features.",
+      "An AI-powered web development platform that transforms natural language prompts into fully responsive, production-ready websites using LLMs. It features AI-driven code generation, live preview, seamless deployment, and a modern user experience.",
     image: webGenAILogo,
     tags: [
       "React.js",
@@ -215,9 +215,19 @@ export const projects = [
       "Express.js",
       "MongoDB",
       "JavaScript",
+      "TypeScript",
       "HTML",
       "CSS",
+      "Tailwind CSS",
+      "Framer Motion",
       "REST API",
+      "LLM",
+      "AI",
+      "Prompt Engineering",
+      "Vercel",
+      "Render",
+      "GitHub",
+      "JWT Authentication",
     ],
     github: "https://github.com/saishshaikh/WebGenAI.git",
     webapp: "https://web-ai-4.onrender.com/",
@@ -237,13 +247,14 @@ export const projects = [
       "AI/ML",
       "REST API",
     ],
-    github: "https://github.com/saishshaikh/AI-Powered-Multi-Vendor-E-Commerce-Platform.git",
+    github:
+      "https://github.com/saishshaikh/AI-Powered-Multi-Vendor-E-Commerce-Platform.git",
     webapp:
       "https://ai-powered-multi-vendor-e-commerce.vercel.app/login?error=Configuration",
   },
   {
     id: 2,
-    title: "Educonnect-PROFESSIONAL NETWORKING PLATFORM",
+    title: "EduConnect – Professional Networking Platform",
     description:
       "EduConnect is a full-stack MERN web application inspired by LinkedIn, designed for students to connect, create profiles, share posts, and build professional networks. It enables communication, collaboration, and career growth through a secure and responsive platform.",
     image: linkedLogo,
