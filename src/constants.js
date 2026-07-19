@@ -57,8 +57,7 @@ import stockLogo from './assets/work_logo/Stock_predictor.png';
 import skyportLogo from './assets/work_logo/Skyport.png';
 import linkedLogo from './assets/work_logo/EduConnect.png';
 import ecommerceLogo from './assets/work_logo/Ecommerce.png';
-import webGenAILogo from "../images/webgenai.png";
-
+import webGenAILogo from "./assets/work_logo/webgenai.png";
 // ============================
 // Skills Info
 // ============================
