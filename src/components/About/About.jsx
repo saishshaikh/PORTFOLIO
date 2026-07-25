@@ -34,11 +34,8 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="mt-8 mb-10 text-base leading-relaxed text-gray-400 sm:text-lg md:text-lg">
-            I'm a BE CS Engineering student with a strong passion for crafting innovative, user-friendly, and scalable web solutions. As a Full-Stack Developer, I specialize in JavaScript, React, Next.js, Node.js, and Python, while also exploring AI-powered automation with LangChain. Alongside development, I have a keen interest in Data Analysis, transforming raw data into meaningful insights through EDA, SQL, and visualization tools.
+            I'm a Computer Engineering graduate and MERN Stack Developer passionate about building modern, scalable, and user-friendly web applications. I specialize in MongoDB, Express.js, React.js, Node.js, and JavaScript. I'm currently learning AI technologies such as LangChain, LangGraph, LLMs, RAG, Vector Databases, Docker, and Redis. I'm always eager to learn new technologies, take on new challenges, and continuously improve my skills.
 
-            Currently, I'm sharpening my DSA skills and working on real-world projects that combine both full-stack and analytical expertise.
-
-            Outside of tech, you'll often find me watching or playing cricket, or travelling to explore new places and cultures, experiences that fuel my creativity and problem-solving mindset.
           </p>
           {/* Resume Button */}
           <a
